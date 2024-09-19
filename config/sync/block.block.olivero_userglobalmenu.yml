@@ -11,7 +11,7 @@ dependencies:
 id: olivero_userglobalmenu
 theme: olivero
 region: hero
-weight: 0
+weight: -9
 provider: null
 plugin: 'system_menu_block:user-global-menu'
 settings:

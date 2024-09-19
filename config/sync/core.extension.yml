@@ -18,6 +18,7 @@ module:
   contextual: 0
   datetime: 0
   dblog: 0
+  delete_news: 0
   devel: 0
   devel_generate: 0
   dynamic_page_cache: 0
@@ -32,6 +33,7 @@ module:
   history: 0
   image: 0
   key: 0
+  leadership_info: 0
   link: 0
   menu_link_content: 0
   menu_ui: 0

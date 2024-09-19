@@ -10,6 +10,7 @@ dependencies:
     - field_permissions
     - field_ui
     - filter
+    - node
     - search
     - system
 _core:
@@ -21,6 +22,7 @@ is_admin: false
 permissions:
   - 'access comments'
   - 'access content'
+  - 'access content overview'
   - 'access site-wide contact form'
   - 'access user profiles'
   - 'administer user display'
@@ -30,3 +32,4 @@ permissions:
   - 'use text format restricted_html'
   - 'view field_hastags'
   - 'view own field_hastags'
+  - 'view own unpublished content'

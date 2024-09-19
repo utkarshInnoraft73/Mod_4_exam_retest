@@ -1,0 +1,63 @@
+<?php
+
+/**
+ * @file
+ * To create a table for a form.
+ */
+
+/**
+ * Method leadership_info_schema to define the schema to leadership.
+ *
+ * @return array
+ *   Return the schema of the leadership form.
+ */
+function leadership_info_schema() : array {
+  $schema['leadership_info_form'] = [
+    'description' => 'The leadership info form.',
+    'fields' => [
+
+      // Field for id.
+      'id' => [
+        'type' => 'serial',
+        'not null' => TRUE,
+        'unsigned' => TRUE,
+        'description' => 'Leadership ',
+      ],
+
+      // Field for leader name.
+      'leader_name' => [
+        'description' => 'Leader name',
+        'type' => 'varchar',
+        'length' => 128,
+        'default' => '',
+      ],
+
+      // Field for designation.
+      'designation' => [
+        'description' => 'Designation',
+        'type' => 'varchar',
+        'length' => 128,
+        'default' => '',
+      ],
+
+      // Field for first linkedin profile.
+      'linkedin' => [
+        'description' => 'Linked in profile.',
+        'type' => 'varchar',
+        'length' => 128,
+        'default' => '',
+      ],
+
+      // Field for profile image.
+      'profile_image' => [
+        'description' => 'Profile image.',
+        'type' => 'varchar',
+        'length' => 128,
+        'default' => '',
+      ],
+    ],
+    'primary key' => ['id'],
+  ];
+
+  return $schema;
+}

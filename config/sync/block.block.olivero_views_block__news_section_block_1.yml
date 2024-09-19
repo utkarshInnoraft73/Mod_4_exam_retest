@@ -5,14 +5,13 @@ dependencies:
   config:
     - views.view.news_section
   module:
-    - system
     - views
   theme:
     - olivero
 id: olivero_views_block__news_section_block_1
 theme: olivero
 region: sidebar
-weight: 0
+weight: -9
 provider: null
 plugin: 'views_block:news_section-block_1'
 settings:
@@ -23,8 +22,4 @@ settings:
   context_mapping: {  }
   views_label: ''
   items_per_page: none
-visibility:
-  request_path:
-    id: request_path
-    negate: false
-    pages: '/user/*'
+visibility: {  }

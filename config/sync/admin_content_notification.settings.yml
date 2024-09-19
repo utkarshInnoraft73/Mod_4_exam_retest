@@ -7,11 +7,11 @@ admin_content_notification_node_types:
 admin_content_notification_trigger_on_node_update: true
 admin_content_notification_trigger_on_node_status: 0
 admin_content_notification_allowed_roles:
+  administrator: administrator
   news_anchor: news_anchor
   news_editor: news_editor
   anonymous: null
   authenticated: null
-  administrator: null
 admin_content_notification_email_limit: 50
 admin_content_notification_email: ''
 admin_content_notification_roles_notified:

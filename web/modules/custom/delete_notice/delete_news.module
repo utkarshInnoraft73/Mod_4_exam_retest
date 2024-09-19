@@ -1,0 +1,25 @@
+<?php
+
+/**
+ * @file
+ * To implement the hooks.
+ */
+
+use Drupal\node\Entity\Node;
+
+/**
+ * Implements delete_news_cron() to delete the older than 6 months.
+ */
+function delete_news_cron() {
+  $query = \Drupal::entityQuery('node')
+    ->condition('type', 'news')
+    ->condition('created', strtotime('-6 months'), '<')
+    ->accessCheck(FALSE)
+    ->execute();
+  if (!empty($query)) {
+    $nodes = Node::loadMultiple($query);
+    foreach ($nodes as $node) {
+      $node->delete();
+    }
+  }
+}

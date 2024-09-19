@@ -1,0 +1,4 @@
+services:
+  leadership_info.db_operations:
+    class: Drupal\leadership_info\services\CustomServices
+    arguments: ['@database']
