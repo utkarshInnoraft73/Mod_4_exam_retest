@@ -1,0 +1,9 @@
+uuid: 4273e68f-92ad-4229-b08c-d688c14ee020
+langcode: en
+status: true
+dependencies: {  }
+name: 'News Cateogary'
+vid: 'n'
+description: 'The news cateogaries.'
+weight: 0
+new_revision: false

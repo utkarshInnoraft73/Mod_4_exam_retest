@@ -1,0 +1,18 @@
+uuid: ec8054e2-04ba-4612-abed-562355af58c1
+langcode: en
+status: true
+dependencies:
+  module:
+    - field_permissions
+_core:
+  default_config_hash: OeKGIkmZA_c-t6QLH81WNQx8gDCc1MRmxaTuQgxBByU
+id: administrator
+label: Administrator
+weight: 3
+is_admin: true
+permissions:
+  - 'create field_editor_in_charge'
+  - 'edit field_editor_in_charge'
+  - 'edit own field_editor_in_charge'
+  - 'view field_editor_in_charge'
+  - 'view own field_editor_in_charge'
