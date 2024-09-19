@@ -1,0 +1,9 @@
+uuid: 575c709e-bccd-40fa-8c50-f52a612cc3b7
+langcode: en
+status: true
+dependencies: {  }
+name: 'Anchor Genre'
+vid: genr
+description: null
+weight: 0
+new_revision: false

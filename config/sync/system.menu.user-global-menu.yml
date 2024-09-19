@@ -1,0 +1,8 @@
+uuid: b757478f-4bfc-4de4-a957-c739219a66ae
+langcode: en
+status: true
+dependencies: {  }
+id: user-global-menu
+label: 'User global menu'
+description: 'User global menu for different user roles view page.'
+locked: false

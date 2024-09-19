@@ -1,0 +1,21 @@
+uuid: c8770999-3202-4daf-b2be-08bee68108f4
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.news
+  module:
+    - field_permissions
+    - node
+id: news_anchor
+label: 'News Anchor'
+weight: 4
+is_admin: null
+permissions:
+  - 'access user profiles'
+  - 'create field_editor_in_charge'
+  - 'create news content'
+  - 'delete own news content'
+  - 'edit own field_editor_in_charge'
+  - 'view field_editor_in_charge'
+  - 'view own field_editor_in_charge'
