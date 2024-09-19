@@ -1,0 +1,30 @@
+uuid: 7ce68d8d-5dde-4470-b494-a93cc4c8b217
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.news_here
+  module:
+    - system
+    - views
+  theme:
+    - olivero
+id: olivero_views_block__news_here_block_1
+theme: olivero
+region: sidebar
+weight: -8
+provider: null
+plugin: 'views_block:news_here-block_1'
+settings:
+  id: 'views_block:news_here-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  context_mapping: {  }
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '/user/*'

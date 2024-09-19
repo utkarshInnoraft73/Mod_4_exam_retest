@@ -1,0 +1,26 @@
+uuid: 889e706c-1f63-4de5-b734-d68f4f0f6069
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.news
+  module:
+    - field_permissions
+    - node
+id: news_editor
+label: 'News Editor'
+weight: 5
+is_admin: null
+permissions:
+  - 'access user profiles'
+  - 'create field_c'
+  - 'create field_hastags'
+  - 'edit any news content'
+  - 'edit field_c'
+  - 'edit field_hastags'
+  - 'edit own field_c'
+  - 'edit own field_hastags'
+  - 'view field_c'
+  - 'view field_hastags'
+  - 'view own field_c'
+  - 'view own field_hastags'

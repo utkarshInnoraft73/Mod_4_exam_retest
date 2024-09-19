@@ -1,0 +1,9 @@
+uuid: c8eab5ca-a9ca-495a-9dc2-3a4f88300198
+langcode: en
+status: true
+dependencies: {  }
+name: 'News hastags'
+vid: news_hastags
+description: 'The news hastags.'
+weight: 0
+new_revision: false

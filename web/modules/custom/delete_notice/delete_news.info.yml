@@ -1,0 +1,7 @@
+name: 'Delete news'
+type: module
+description: 'Delete the past news.'
+package: Custom
+core_version_requirement: ^10 || ^11
+dependencies:
+  - drupal:node

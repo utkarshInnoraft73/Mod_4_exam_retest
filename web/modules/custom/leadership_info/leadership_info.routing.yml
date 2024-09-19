@@ -1,0 +1,15 @@
+leadership_info.aboutus:
+  path: '/about-us'
+  defaults:
+    _title: 'About us'
+    _controller: '\Drupal\leadership_info\Controller\AboutUsController::build'
+  requirements:
+    _permission: 'access content'
+
+leadereship_info.form:
+  path: '/leadership-info-form'
+  defaults:
+    _title: 'Leadership form.'
+    _form: 'Drupal\leadership_info\Form\LeadershipInfoForm'
+  requirements:
+    _permission: 'access content'

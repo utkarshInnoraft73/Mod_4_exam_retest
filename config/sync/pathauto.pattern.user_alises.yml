@@ -1,0 +1,14 @@
+uuid: bb61ab17-0448-4394-8da1-c7cc3a444580
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+id: user_alises
+label: 'User alises'
+type: 'canonical_entities:user'
+pattern: 'user/[user:uid]/[user:field_genre:target_id]'
+selection_criteria: {  }
+selection_logic: and
+weight: 0
+relationships: {  }

@@ -1,0 +1,8 @@
+uuid: caec3bab-d292-4825-82c4-a5364621f35b
+langcode: en
+status: true
+dependencies: {  }
+id: add-news
+label: 'Add news'
+description: 'Add news link for news anchors.'
+locked: false

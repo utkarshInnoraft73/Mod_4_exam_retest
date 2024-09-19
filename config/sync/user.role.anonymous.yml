@@ -1,0 +1,35 @@
+uuid: 52561d83-fdf2-4a0d-bd2d-6f4141840254
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.restricted_html
+  module:
+    - comment
+    - contact
+    - field_permissions
+    - field_ui
+    - filter
+    - node
+    - search
+    - system
+_core:
+  default_config_hash: 6WavjUYXIegP9AAg2zXGx54MWIVoomC3SZhNiqe-Dyk
+id: anonymous
+label: 'Anonymous user'
+weight: 0
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'access content overview'
+  - 'access site-wide contact form'
+  - 'access user profiles'
+  - 'administer user display'
+  - 'administer user fields'
+  - 'administer user form display'
+  - 'search content'
+  - 'use text format restricted_html'
+  - 'view field_hastags'
+  - 'view own field_hastags'
+  - 'view own unpublished content'

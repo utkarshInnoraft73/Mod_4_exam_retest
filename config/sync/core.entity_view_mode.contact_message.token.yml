@@ -1,0 +1,11 @@
+uuid: f152bedd-d689-4939-b224-772a402e3ec6
+langcode: en
+status: true
+dependencies:
+  module:
+    - contact
+id: contact_message.token
+label: Token
+description: ''
+targetEntityType: contact_message
+cache: true
